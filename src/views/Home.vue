@@ -1,19 +1,19 @@
 <template>
     <div class="container my-5 py-5">
       <!-- Seção de Introdução -->
-      <section class="intro-section py-5 text-center">
+      <section class="intro-section p-5 text-center">
         <div class="container">
           <h1 class="display-4">Bem-vindo ao <span class="text-primary">EstimPro</span>!</h1>
           <p class="lead">Utilize o <span class="text-primary">EstimPro</span> para calcular seus projetos. Sua ferramenta definitiva para calcular o valor e o prazo dos seus projetos freelance com precisão e eficiência.</p>
-          <p class="mb-4">Com o <b>EstimPro</b>, você pode estimar rapidamente os custos do seu projeto, calcular a mão de obra necessária e planejar o tempo de execução, tudo em um só lugar. Nossa interface intuitiva e funcionalidades avançadas ajudam você a tomar decisões informadas e a gerenciar seus projetos com confiança.</p>
           <a href="#features" class="btn btn-primary btn-sm">Descubra as Funcionalidades <i class="fa-solid fa-arrow-down"></i></a>
         </div>
       </section>
   
       <!-- Seção de Funcionalidades -->
-      <section id="features" class="features-section py-5">
-        <div class="container">
+      <section id="features" class="features-section my-5 p-5">
+        <div class="container my-5 p-5">
           <h2 class="display-5 text-center mb-4">O Que o <span class="text-primary">EstimPro</span> Oferece</h2>
+          <p class="mb-5 lead">Com o <b>EstimPro</b>, você pode estimar rapidamente os custos do seu projeto, calcular a mão de obra necessária e planejar o tempo de execução, tudo em um só lugar.</p>
           <div class="row">
             <div class="col-md-4 text-center">
               <h3 class="h4">Cálculo de Valor do Projeto</h3>
@@ -29,13 +29,14 @@
             </div>
           </div>
           <div class="text-center mt-4">
+            <p class="mb-5 lead">Nossa interface intuitiva e funcionalidades avançadas ajudam você a tomar decisões informadas e a gerenciar seus projetos com confiança. <b>Realize orçamentos, salve em PDF, imprima e compartilhe via WhatsApp.</b></p>
             <router-link class="btn btn-primary btn-sm" to="/calculadora">Experimente o EstimPro <i class="fa-solid fa-play"></i></router-link>
           </div>
         </div>
       </section>
   
       <!-- Seção de Testemunhos -->
-      <section id="testimonials" class="testimonials-section py-5 bg-light">
+      <section id="testimonials" class="testimonials-section my-5 p-5 bg-light">
         <div class="container">
           <h2 class="display-5 text-center mb-4">O Que Nossos Usuários Dizem</h2>
           <div class="row">
