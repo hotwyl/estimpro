@@ -19,7 +19,7 @@ Utilize o EstimPro para calcular seus projetos. Sua ferramenta definitiva para c
 - Vite
 - Bootstrap 5
 - SweetAlert2
-- FontAwesome
+- FontAwesome 6
 - jsPDF
 
 ## Instalação
